@@ -7,8 +7,7 @@
 <label for="fname">First name:</label><br>
 <input type="text" id="fname" name="fname" value="Rachitha"><br>
 <label for="lname">Last name:</label><br>
-<input type="text" id="lname" name="lname" value="Kamath"><br><br>
-<input type="submit" value="Submit">
+<input type="text" id="lname" name="lname" value="Kamath"><br>
 </form>
 <p>if you click the "Submit" button, the form-data will be sent to page called "/action_page.php"</p>
 
@@ -27,9 +26,28 @@
 <label for="vehicle2">I have a car</label><br>
 <input type="checkbox" id="vehicle3" name="vehicle3" value=Boat">
 <label for="vehicle3">I have a boat</label><br>
+
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+<br><br>
+
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars" size="2" multiple>
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+<br><br>
+
+
+<input type="submit" value="Submit">
 </form>
 
 </body>
 </html>
-
-
